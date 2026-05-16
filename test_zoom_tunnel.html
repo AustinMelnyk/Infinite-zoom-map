@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zoom Tunnel</title>
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; background: #02040a; color: #fff; }
+    #viewer { width: 100vw; height: 100vh; overflow: hidden; }
+    svg { width: 100%; height: 100%; cursor: grab; touch-action: none; user-select: none; }
+  </style>
+</head>
+<body>
+<div id="viewer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" style="background:#000;display:block;max-width:100%;height:auto;">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.35)" />
+      <stop offset="30%" stop-color="rgba(80,140,255,0.18)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0.0)" />
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="1200" fill="#02040a" />
+  
+  <circle cx="600.0" cy="600.0" r="192.0" fill="url(#glow)" />
+  <polygon points="1174.1,600.0 1005.9,1005.9 600.0,1174.1 194.1,1005.9 25.9,600.0 194.1,194.1 600.0,25.9 1005.9,194.1" fill="none" stroke="hsl(210, 85%, 45.0%)" stroke-width="5.00" stroke-opacity="0.760" />
+<polygon points="1205.7,706.8 933.1,996.9 600.0,1207.6 255.2,1010.9 28.0,700.9 107.7,315.8 412.9,85.8 805.1,36.6 1052.4,338.8" fill="none" stroke="hsl(214, 85%, 44.6%)" stroke-width="4.91" stroke-opacity="0.738" />
+<polygon points="1109.7,785.5 900.3,1045.2 579.2,1194.9 288.2,999.1 31.1,763.1 90.3,414.5 299.7,154.8 620.8,5.1 911.8,200.9 1168.9,436.9" fill="none" stroke="hsl(218, 85%, 44.1%)" stroke-width="4.81" stroke-opacity="0.716" />
+<polygon points="1030.8,848.7 867.1,1118.1 549.6,1127.5 282.4,1003.9 44.4,792.3 107.3,480.5 228.1,210.0 490.6,32.4 783.9,140.6 1060.0,272.5 1155.8,573.5" fill="none" stroke="hsl(223, 85%, 43.7%)" stroke-width="4.72" stroke-opacity="0.693" />
+<polygon points="1020.1,952.5 643.9,1101.9 247.5,1020.1 98.1,643.9 179.9,247.5 556.1,98.1 952.5,179.9 1101.9,556.1" fill="none" stroke="hsl(227, 85%, 43.2%)" stroke-width="4.63" stroke-opacity="0.671" />
+<polygon points="950.7,1018.0 600.0,1067.5 243.7,1024.6 137.8,681.5 130.5,328.9 432.3,139.4 776.1,116.1 1050.6,339.8 1078.1,684.3" fill="none" stroke="hsl(232, 85%, 42.8%)" stroke-width="4.54" stroke-opacity="0.649" />
+<polygon points="831.6,1001.1 547.9,1095.9 256.7,981.3 155.7,694.4 111.2,382.4 368.4,198.9 652.1,104.1 943.3,218.7 1044.3,505.6 1088.8,817.6" fill="none" stroke="hsl(236, 85%, 42.3%)" stroke-width="4.44" stroke-opacity="0.627" />
+<polygon points="753.5,1021.8 486.3,1103.4 281.6,913.4 139.6,696.3 124.8,418.4 342.2,249.9 568.7,107.7 838.6,171.2 984.0,394.3 1108.7,640.4 972.0,883.1" fill="none" stroke="hsl(241, 85%, 41.9%)" stroke-width="4.35" stroke-opacity="0.604" />
+<polygon points="685.0,1082.3 357.8,945.9 117.7,685.0 254.1,357.8 515.0,117.7 842.2,254.1 1082.3,515.0 945.9,842.2" fill="none" stroke="hsl(245, 85%, 41.4%)" stroke-width="4.26" stroke-opacity="0.582" />
+<polygon points="600.0,1052.1 336.5,914.0 136.5,681.7 254.7,400.7 438.1,155.3 738.6,219.3 997.1,370.7 1019.7,674.0 878.7,932.1" fill="none" stroke="hsl(250, 85%, 41.0%)" stroke-width="4.17" stroke-opacity="0.560" />
+<polygon points="533.7,975.8 284.9,904.3 188.4,657.8 250.8,414.3 402.5,195.1 666.3,224.2 915.1,295.7 1011.6,542.2 949.2,785.7 797.5,1004.9" fill="none" stroke="hsl(254, 85%, 40.6%)" stroke-width="4.07" stroke-opacity="0.538" />
+<polygon points="466.7,966.1 261.9,857.3 238.4,628.7 239.6,406.9 400.4,241.2 623.0,238.5 851.3,258.7 965.7,460.3 964.3,676.2 906.3,901.5 682.3,964.4" fill="none" stroke="hsl(258, 85%, 40.1%)" stroke-width="3.98" stroke-opacity="0.516" />
+<polygon points="396.7,952.1 270.1,688.4 247.9,396.7 511.6,270.1 803.3,247.9 929.9,511.6 952.1,803.3 688.4,929.9" fill="none" stroke="hsl(263, 85%, 39.7%)" stroke-width="3.89" stroke-opacity="0.493" />
+<polygon points="375.3,867.7 261.1,659.8 279.8,415.1 488.2,292.8 730.5,241.3 878.5,439.2 974.0,666.0 812.4,853.2 600.0,965.0" fill="none" stroke="hsl(267, 85%, 39.2%)" stroke-width="3.80" stroke-opacity="0.471" />
+<polygon points="368.9,793.9 245.0,624.8 332.7,432.9 477.6,297.1 684.4,261.6 831.1,406.1 955.0,575.2 867.3,767.1 722.4,902.9 515.6,938.4" fill="none" stroke="hsl(272, 85%, 38.8%)" stroke-width="3.70" stroke-opacity="0.449" />
+<polygon points="326.7,757.8 280.5,584.8 371.5,437.3 478.2,295.7 657.8,300.2 798.4,391.9 923.9,521.4 875.1,695.2 785.8,836.3 631.4,928.8 470.8,850.6" fill="none" stroke="hsl(276, 85%, 38.3%)" stroke-width="3.61" stroke-opacity="0.427" />
+<polygon points="313.1,704.4 363.2,489.6 495.6,313.1 710.4,363.2 886.9,495.6 836.8,710.4 704.4,886.9 489.6,836.8" fill="none" stroke="hsl(281, 85%, 37.9%)" stroke-width="3.52" stroke-opacity="0.404" />
+<polygon points="356.9,642.9 370.6,467.5 510.5,354.0 685.4,365.5 838.7,462.2 835.2,641.5 781.2,816.0 600.0,837.8 421.5,812.7" fill="none" stroke="hsl(285, 85%, 37.4%)" stroke-width="3.43" stroke-opacity="0.382" />
+<polygon points="380.2,600.0 393.2,449.8 532.8,393.0 675.2,368.6 793.9,459.1 819.8,600.0 806.8,750.2 667.2,807.0 524.8,831.4 406.1,740.9" fill="none" stroke="hsl(290, 85%, 37.0%)" stroke-width="3.33" stroke-opacity="0.360" />
+<polygon points="379.2,561.1 445.2,457.1 550.6,409.7 671.3,382.8 755.8,473.4 804.0,577.3 803.6,700.9 699.6,766.4 593.2,815.4 474.9,781.7 422.6,674.3" fill="none" stroke="hsl(294, 85%, 36.6%)" stroke-width="3.24" stroke-opacity="0.338" />
+<polygon points="417.2,533.5 525.4,440.1 666.5,417.2 759.9,525.4 782.8,666.5 674.6,759.9 533.5,782.8 440.1,674.6" fill="none" stroke="hsl(298, 85%, 36.1%)" stroke-width="3.15" stroke-opacity="0.316" />
+<polygon points="472.2,526.2 542.0,440.7 652.8,454.8 739.2,519.6 761.5,628.5 697.5,716.2 600.0,771.6 505.9,712.2 428.8,630.2" fill="none" stroke="hsl(303, 85%, 35.7%)" stroke-width="3.06" stroke-opacity="0.293" />
+<polygon points="500.2,516.3 565.2,460.5 645.9,486.4 721.6,524.0 730.6,609.1 699.8,683.7 634.8,739.5 554.1,713.6 478.4,676.0 469.4,590.9" fill="none" stroke="hsl(307, 85%, 35.2%)" stroke-width="2.96" stroke-opacity="0.271" />
+<polygon points="524.7,510.2 586.9,497.3 645.0,505.4 699.3,538.4 699.8,601.6 691.6,660.9 645.6,704.1 584.4,697.4 523.5,685.5 495.3,629.0 504.0,570.2" fill="none" stroke="hsl(312, 85%, 34.8%)" stroke-width="2.87" stroke-opacity="0.249" />
+<polygon points="558.9,528.9 620.9,521.9 671.1,558.9 678.1,620.9 641.1,671.1 579.1,678.1 528.9,641.1 521.9,579.1" fill="none" stroke="hsl(316, 85%, 34.3%)" stroke-width="2.78" stroke-opacity="0.227" />
+<polygon points="582.9,553.1 620.2,544.4 644.1,574.6 656.3,609.9 634.5,641.1 600.0,654.0 563.5,643.6 549.6,608.9 548.9,570.5" fill="none" stroke="hsl(321, 85%, 33.9%)" stroke-width="2.69" stroke-opacity="0.204" />
+<polygon points="595.2,572.5 612.5,574.3 622.4,588.1 629.6,604.2 618.5,617.9 604.8,627.5 587.5,625.7 577.6,611.9 570.4,595.8 581.5,582.1" fill="none" stroke="hsl(325, 85%, 33.4%)" stroke-width="2.59" stroke-opacity="0.182" />
+<polygon points="600.0,600.0 600.0,600.0 600.0,600.0 600.0,600.0 600.0,600.0 600.0,600.0 600.0,600.0 600.0,600.0 600.0,600.0 600.0,600.0 600.0,600.0" fill="none" stroke="hsl(330, 85%, 33.0%)" stroke-width="2.50" stroke-opacity="0.160" />
+</svg></div>
+<script>
+const svg = document.querySelector('svg');
+const bbox = svg.getBBox();
+let viewBox = { x: 0, y: 0, width: bbox.width, height: bbox.height };
+let isPanning = false;
+let start = { x: 0, y: 0 };
+let origin = { x: 0, y: 0 };
+
+function setViewBox() {
+  svg.setAttribute('viewBox', `${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`);
+}
+
+function getPoint(event) {
+  const pt = svg.createSVGPoint();
+  pt.x = event.clientX;
+  pt.y = event.clientY;
+  return pt.matrixTransform(svg.getScreenCTM().inverse());
+}
+
+svg.addEventListener('mousedown', event => {
+  isPanning = true;
+  svg.style.cursor = 'grabbing';
+  start = getPoint(event);
+  origin = { x: viewBox.x, y: viewBox.y };
+});
+
+window.addEventListener('mousemove', event => {
+  if (!isPanning) return;
+  const point = getPoint(event);
+  viewBox.x = origin.x - (point.x - start.x);
+  viewBox.y = origin.y - (point.y - start.y);
+  setViewBox();
+});
+
+window.addEventListener('mouseup', () => {
+  isPanning = false;
+  svg.style.cursor = 'grab';
+});
+
+svg.addEventListener('wheel', event => {
+  event.preventDefault();
+  const point = getPoint(event);
+  const scale = event.deltaY > 0 ? 1.12 : 0.88;
+  const newWidth = Math.max(viewBox.width * scale, 120);
+  const newHeight = Math.max(viewBox.height * scale, 120);
+  viewBox.x = point.x - ((point.x - viewBox.x) * newWidth / viewBox.width);
+  viewBox.y = point.y - ((point.y - viewBox.y) * newHeight / viewBox.height);
+  viewBox.width = newWidth;
+  viewBox.height = newHeight;
+  setViewBox();
+}, { passive: false });
+
+window.addEventListener('keydown', event => {
+  const step = viewBox.width * 0.06;
+  if (event.key === '+' || event.key === '=') { viewBox.width *= 0.88; viewBox.height *= 0.88; setViewBox(); }
+  if (event.key === '-') { viewBox.width *= 1.12; viewBox.height *= 1.12; setViewBox(); }
+  if (event.key === 'ArrowUp') { viewBox.y -= step; setViewBox(); }
+  if (event.key === 'ArrowDown') { viewBox.y += step; setViewBox(); }
+  if (event.key === 'ArrowLeft') { viewBox.x -= step; setViewBox(); }
+  if (event.key === 'ArrowRight') { viewBox.x += step; setViewBox(); }
+});
+
+setViewBox();
+</script>
+</body>
+</html>
